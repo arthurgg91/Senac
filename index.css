@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    ;
+}
+button{
+    top: 40px;
+    right: 50px;
+    width: 85px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+header{
+    background-color: orangered;
+    display: flex;
+    height: 80px;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+width: 120px;
+height: 100px;
+object-fit: contain;
+margin-right: 100px ;
+border-radius: 0;
+
+}
+header div{;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    
+}
+img.logo {
+    list-style: none;
+    display: block;
+    border-radius: 0px;
+    object-fit: contain;
+    margin-bottom: 2px;
+    width: 90px;;
+    height: auto;
+    background-color: white;;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 12px;;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: text-decoration 0.3s;
+    text-align: centerd;
+    height: auto;
+    margin-left: 20px;
+    
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    display:block 1;
+    font-size: 30px;
+    color: white;
+    margin-right: auto;
+    margin-right: auto;
+}
+.banner{
+    width: 80%;
+    display:block;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 0;
+    height: 55%;
+    object-fit: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h2{ 
+    font-weight: 300;
+    font-size: 44px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    color: black;
+    margin-left: 160px;
+    font-style: normal;
+
+}
+p{
+    font-size: 40%;
+    margin-top: 0px;
+    color: rgb(92, 92, 92);
+    
+}
+.container{
+    display:flex;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.class turismo{
+    width: 120px;
+    height: 120px;
+display: block;
+position: center;
+margin-left: aut
+}
