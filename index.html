@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1 {
-            width: 300px;
-            height: 330px;
-            background-color: white;
-            border-width: 10px;
-            border-style: red;
-            padding: 20px;
-            outline: solid;
-            outline-color: blue;
-            margin: auto;
-        }
-    </style>
 </head>
 <body>
-    <h1>Ola mundo</h1>
+    <h1>converter distancia</h1>
+    <button onclick="converter()">converter distancia</button>
+    <section id="resultado"> 
+        <p> o resultado aparecera aqui!</p>
+    </section>
+    <script>
+        function converter(){
+            let metros = Number(prompt("digite a distancia em metros:"));
+            let km = metros / 1000;
+            let hm = metros / 100;
+            let dam = metros / 10;
+            let dm = metros * 10;
+            let cm = metros * 100;
+            let mm = metros * 1000;
+
+            let resposta = document.getElementById("resultado");
+            resposta.innerHTML =`<p>A distancia de <strong>${metros} metro(s)</strong> corresponde a:</p>
+            <ul>
+                <li>${km} Km</li>
+                <li>${hm} hm</li>
+                <li>${dam} dam</li>
+                <li>${dm} dm</li>
+                <li>${cm} cm</li>
+                <li>${mm} mm</li>
+                </ul>`;
+        
+            
+        }
+    </script>
 </body>
 </html>
